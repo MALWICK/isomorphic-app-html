@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 2%;
+}
+
+section {
+  width: 50%;
+  margin: auto;
+  height: 50vh;
+}
+
+.container {
+  background-color: green;
+  height: 45vh;
+  width: 100%;
+  padding: 1%;
+  border-radius: 1%;
+  border: 1px solid rgb(164, 162, 162);
+  text-align: center;
+  font-size: large;
+}
+
+.content {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  border-radius: 2%;
+  font-size: large;
+  font-weight: 100;
+}
+
+.leftinput {
+  padding: 5%;
+  width: 17vw;
+  font-size: large;
+}
+
+.rightinput {
+  padding: 5%;
+  width: 17vw;
+  font-size: large;
+}
+
+.buttonsection {
+  width: 100%;
+  margin: 2%;
+  padding: 1%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 13%;
+}
+
+.subbtn {
+  font-size: large;
+  width: 150px;
+  padding: 5%;
+  background: orangered;
+  border: 1px solid black;
+  border-radius: 2%;
+}
+
+.restbtn {
+  padding: 10%;
+  color: white;
+  width: 90px;
+  background: red;
+  border: 1px solid black;
+  border-radius: 2%;
+  font-size: large;
+}
+
+.result {
+  background: white;
+  margin: auto;
+  width: 80%;
+  height: 15vh;
+  padding: 2%;
+  border: 1px solid black;
+}
+
+.resultdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  width: 99%;
+  height: 12.9vh;
+}
